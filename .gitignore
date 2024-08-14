@@ -1,0 +1,9 @@
+.mypy_cache
+.pytest_cache
+__pycache__
+*~
+20231106-rna-protein-genome.db
+20231106-rna-protein-genome.fasta
+20231106-taxonomy.db
+BIH-run
+final-civdb-results
