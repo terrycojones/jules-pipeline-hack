@@ -15,6 +15,7 @@ Calls `make-data.py` to (roughly) do the following:
 1. Scale the image to be the (aa) length of the protein.
 1. Break each horizontal line into some reads.
 1. Calculate a bit score for the reads based on how far down we are in the image.
+1. Add some noise (otherwise the image looks too good and you can't see the individual reads).
 1. Write out fake DIAMOND results for those reads.
 1. Write our fake FASTQ files for the reads.
 
